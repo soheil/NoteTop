@@ -13,6 +13,8 @@
 		5B64CADC25C3BE5400B30A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B64CADA25C3BE5400B30A3E /* Main.storyboard */; };
 		5B64CAE825C3BE5400B30A3E /* NoteTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64CAE725C3BE5400B30A3E /* NoteTopTests.swift */; };
 		5B64CAF325C3BE5400B30A3E /* NoteTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B64CAF225C3BE5400B30A3E /* NoteTopUITests.swift */; };
+		5B64CB0425C3BFCB00B30A3E /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B64CB0325C3BFCB00B30A3E /* icon1.png */; };
+		5B64CB1325C3C23900B30A3E /* icon1.png in Sources */ = {isa = PBXBuildFile; fileRef = 5B64CB0325C3BFCB00B30A3E /* icon1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,7 @@
 		5B64CAEE25C3BE5400B30A3E /* NoteTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B64CAF225C3BE5400B30A3E /* NoteTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTopUITests.swift; sourceTree = "<group>"; };
 		5B64CAF425C3BE5400B30A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B64CB0325C3BFCB00B30A3E /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		5B64CAD325C3BE5300B30A3E /* NoteTop */ = {
 			isa = PBXGroup;
 			children = (
+				5B64CB0325C3BFCB00B30A3E /* icon1.png */,
 				5B64CAD425C3BE5300B30A3E /* AppDelegate.swift */,
 				5B64CAD625C3BE5300B30A3E /* ViewController.swift */,
 				5B64CAD825C3BE5400B30A3E /* Assets.xcassets */,
@@ -229,6 +233,7 @@
 			files = (
 				5B64CAD925C3BE5400B30A3E /* Assets.xcassets in Resources */,
 				5B64CADC25C3BE5400B30A3E /* Main.storyboard in Resources */,
+				5B64CB0425C3BFCB00B30A3E /* icon1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B64CB1325C3C23900B30A3E /* icon1.png in Sources */,
 				5B64CAD725C3BE5300B30A3E /* ViewController.swift in Sources */,
 				5B64CAD525C3BE5300B30A3E /* AppDelegate.swift in Sources */,
 			);
